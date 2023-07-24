@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 15rem;
+}
+
+input {
+    border: 0;
+    border-bottom: .1rem solid grey;
+}
+
+.calculator>div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button {
+    border: 0;
+    padding: 1rem;
+    border-radius: 50rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
